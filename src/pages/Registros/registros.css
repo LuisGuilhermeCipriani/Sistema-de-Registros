@@ -1,0 +1,60 @@
+
+.containerRegistros{
+    flex-direction: column;
+}
+
+.principalRegistros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloRegistros{
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.articleRegistros{
+    display: flex;
+    flex-direction: column;
+    background-color: #b3b3b3;
+    width: 30%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.textoRegistros{
+    color: #000000;
+    padding: 10px;
+}
+
+.concluirRegistros{
+    width: 95.5%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4d4dff;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: #000000 1px 2px 1px;
+    cursor: pointer;
+}
+
+.concluirRegistros:hover{
+    color: #000000;
+    opacity: 0.7;
+    transition: 0.5s;
+    text-shadow: none;
+}
+
+.informacoesRegistros{
+    margin-top: 20px;
+}
+
+.iconeRegistros{
+    margin-right: 10px;
+}

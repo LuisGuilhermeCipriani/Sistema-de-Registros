@@ -1,0 +1,49 @@
+
+.containerHeader{
+    background-color: #8080ff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+}
+
+.nomeHeader{
+    color: #FFFFFF;
+    text-shadow: #000000 2px 3px 2px;
+    margin-left: 20px;
+}
+
+.atalhosHeader{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 50px;
+}
+
+.linkHeader{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.linkHeader:hover{
+    color: #000000;
+}
+
+.sairHeader{
+    color: #FFFFFF;
+    flex-direction: row;
+    display: flex;
+    cursor: pointer;
+}
+
+.sairHeader:hover{
+    color: #000000;
+}
+
+.textoHeader{
+    font-size: 20px;
+    margin-right: 10px;
+}
